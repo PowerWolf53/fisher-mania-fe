@@ -36,6 +36,16 @@
     gap: 30px;
 }
 
+@media (width < 600px) {
+    .products-slider-desktop {
+        scroll-snap-type: x mandatory;
+    }
+    .products-slider-desktop > div > img {
+        scroll-snap-stop: always;
+        scroll-snap-align: center;
+    }
+}
+
 @media (width > 1800px) {
     .products-slider-desktop{
         justify-content: flex-start;

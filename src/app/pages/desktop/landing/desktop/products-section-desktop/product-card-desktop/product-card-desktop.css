@@ -1,5 +1,5 @@
 .product-card-desktop-image{
-    height: 70%;
+    width: 100%;
 }
 
 @media (width > 1400px) {
