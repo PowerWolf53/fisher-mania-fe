@@ -1,0 +1,62 @@
+.welcome-desktop {
+    height: 100vh;
+    width: 100%;
+}
+
+.landing-text-wrapper-desktop {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.home-image-desktop {
+    position: absolute;
+    background-image: url(../../../../assets/images/main/boat-2.jpeg);
+    filter: brightness(60%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.landing-welcome-text-desktop {
+    letter-spacing: -1px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 48pt;
+    line-height: 100%;
+}
+
+.lending-sub-logo-desktop {
+    font-size: 11pt;
+    line-height: 40px;
+}
+
+.more-button-desktop {
+    letter-spacing: 0px;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    height: 45px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 10pt;
+    transition: background-color 0.2s ease-out;
+
+}
+
+.more-button-desktop:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}

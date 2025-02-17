@@ -1,0 +1,11 @@
+.header {
+    padding-left: 50px;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    color: #fff;
+}
