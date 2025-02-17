@@ -1,0 +1,44 @@
+.products-section-desktop {
+    gap: 25px;
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.products-section-label-desktop {
+    font-size: 37pt;
+    font-weight: bold;
+}
+
+@media (width < 500px) {
+    .products-section-label-desktop {
+        font-size: 30pt;
+    }
+}
+
+@media (width < 380px) {
+    .products-section-label-desktop {
+        font-size: 20pt;
+    }
+}
+
+.products-slider-desktop{
+    justify-content: space-between;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    gap: 30px;
+}
+
+@media (width > 1800px) {
+    .products-slider-desktop{
+        justify-content: flex-start;
+        gap: 150px;
+    }
+}

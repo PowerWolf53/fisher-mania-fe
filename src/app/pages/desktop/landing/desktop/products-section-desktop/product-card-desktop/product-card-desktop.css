@@ -1,0 +1,30 @@
+.product-card-desktop-image{
+    height: 70%;
+}
+
+@media (width > 1400px) {
+    .product-card-desktop-image{
+        height: 40vh;
+        width: 20vw;
+    }
+}
+
+@media (width > 1800px) {
+    .product-card-desktop-image{
+        height: 30vh;
+    }
+}
+
+.product-card-desktop{
+    flex-shrink : 0;
+    width: 250px;
+}
+
+.product-card-desktop-description{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.product-card-title-desktop{
+    margin-top: 10px;
+}

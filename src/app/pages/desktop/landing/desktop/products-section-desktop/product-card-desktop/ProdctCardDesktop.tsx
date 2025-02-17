@@ -1,24 +1,23 @@
-import { Card, Button } from "react-bootstrap";
+import {Card} from "react-bootstrap";
+import {StaticImageData} from "next/image";
+import './product-card-desktop.css'
 
-const ProductCard = props => {
+const ProductCardDesktop = (
+    {imgSrc, title, description}: { imgSrc: StaticImageData, title: string, description: string  }
+) => {
     return (
         <>
-            <Card style={{ width: "inherit" }}>
-    <Card.Img variant="top" src={props.imgSrc} />
-    <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-    Some quick example text to build on the card title and make up the
-    bulk of the card's content.
-    </Card.Text>
-    <div className="product-actions">
-    <Button variant="primary">Buy Now</Button>
-    <Button variant="secondary">Add to cart</Button>
-    </div>
-    </Card.Body>
-    </Card>
-    </>
-);
+            <Card className='product-card-desktop'>
+                <Card.Img variant="top" src={imgSrc.src} className='product-card-desktop-image'/>
+                <Card.Body>
+                    <Card.Title className='product-card-title-desktop'>{title}</Card.Title>
+                    <Card.Text className='product-card-desktop-description'>
+                        {description}
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </>
+    );
 };
 
-export default ProductCard;
+export default ProductCardDesktop;

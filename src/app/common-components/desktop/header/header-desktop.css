@@ -1,6 +1,6 @@
-.header {
+.header-desktop {
     padding-left: 50px;
-    position: fixed;
+    padding-right: 50px;
     width: 100vw;
     height: 60px;
     background-color: #0a0a0a;
@@ -8,4 +8,9 @@
     align-items: center;
     font-size: 11pt;
     color: #fff;
+    justify-content: space-between;
+}
+
+.desktop-mail{
+    font-size: 10pt;
 }
