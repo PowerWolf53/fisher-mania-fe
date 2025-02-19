@@ -18,7 +18,7 @@
     padding-left: 5%;
     padding-right: 1%;
     height: auto;
-    max-height: 95vh;
+    max-height: 90vh;
     padding-bottom: 50px;
     width: 60vw;
     background-color: white;
@@ -64,11 +64,15 @@
     }
     .modal-label {
         font-size: 15pt;
+        color: black;
     }
     .modal-form {
         padding-top: 30px;
     }
     .submit-button{
         margin-top: 10px;
+    }
+    .modal-overlay {
+      padding-top: 15px;
     }
 }
