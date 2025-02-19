@@ -30,6 +30,7 @@ export default function RootLayout({
         <title>Fisher Mania</title>
     </head>
     <body
+        id='appElement'
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
     {children}

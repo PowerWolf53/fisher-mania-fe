@@ -14,3 +14,11 @@
 .desktop-mail{
     font-size: 10pt;
 }
+
+@media (width <= 800px) {
+    .header-desktop {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
