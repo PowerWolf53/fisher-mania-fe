@@ -3,7 +3,7 @@
 import './Header.css'
 import {useScrollDirection} from "./hooks/useScrollDirection";
 
-export default function Header() {
+const Header = () => {
     const scrollDirection = useScrollDirection();
 
     return (
@@ -13,3 +13,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default Header;
