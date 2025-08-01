@@ -1,6 +1,6 @@
-import Welcome from "@/app/pages/landing/Welcome";
 import ProductsCarousel from "@/app/pages/landing/ProductCarousel/ProductsCarousel";
-import About from "./About";
+import Welcome from "@/app/pages/landing/Welcome/Welcome";
+import About from "@/app/pages/landing/About/About";
 
 const Landing = () => {
     return (

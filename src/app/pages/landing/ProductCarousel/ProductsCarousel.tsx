@@ -1,11 +1,11 @@
 'use client'
 
 import './ProductsCarousel.css'
-import CarouselCard from "./CarouselCard";
 import ProductCircle from '../../../../assets/images/main/products/circle.jpg'
 import Kolobaska from '../../../../assets/images/main/products/kolobaska.jpg'
 import Kobilka from '../../../../assets/images/main/products/kobilka.jpg'
 import Motilnica from '../../../../assets/images/main/products/motilnica.jpg'
+import CarouselCard from "@/app/pages/landing/ProductCarousel/CarouselCard/CarouselCard";
 
 export default function ProductsCarousel(){
 
