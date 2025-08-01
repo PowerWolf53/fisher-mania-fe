@@ -1,0 +1,50 @@
+.about-section{
+    gap: 25px;
+    height: 120vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20vh;
+}
+
+
+
+.about-article{
+    p{
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 37pt;
+        font-weight: bold;
+    }
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+    justify-content: space-between;
+}
+
+@media (width < 600px) {
+    .about-section {
+        grid-template-columns: 1fr;
+        height: 150vh;
+        padding-left: 0;
+        padding-right: 0;
+        .about-image{
+            order: -1;
+        }
+    }
+    .about-article {
+        padding-top: 40px;
+        padding-right: 0;
+        img {
+            margin-top: 40px;
+        }
+        div {
+            padding-left: 20px;
+        }
+    }
+}

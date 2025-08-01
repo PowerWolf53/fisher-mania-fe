@@ -1,6 +1,6 @@
 import {Card} from "react-bootstrap";
 import {StaticImageData} from "next/image";
-import './product-card-desktop.css'
+import './CarouselCard.css'
 
 const ProductCardDesktop = (
     {imgSrc, title, description}: { imgSrc: StaticImageData, title: string, description: string  }

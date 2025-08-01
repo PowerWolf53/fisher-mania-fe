@@ -1,9 +1,9 @@
 'use client'
 
-import './header-desktop.css'
-import {useScrollDirection} from "@/app/common-components/desktop/header/hooks/useScrollDirection";
+import './Header.css'
+import {useScrollDirection} from "./hooks/useScrollDirection";
 
-export default function HeaderDesktop() {
+export default function Header() {
     const scrollDirection = useScrollDirection();
 
     return (

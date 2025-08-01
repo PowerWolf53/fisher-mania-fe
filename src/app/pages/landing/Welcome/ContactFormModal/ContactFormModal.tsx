@@ -1,10 +1,10 @@
-import './contact-form-modal.css'
+import './ContactFormModal.css'
 import {useEffect} from "react";
-import CrossIcon from '../../../../../../assets/images/main/common/cross.png'
+import CrossIcon from '../../../../../assets/images/main/common/cross.png'
 
-export default function ContactFormModal(
+const ContactFormModal = (
     {isOpen, onClose}: { isOpen: boolean, onClose: () => void }
-) {
+) => {
 
     useEffect(() => {
         if (isOpen) {
@@ -100,3 +100,5 @@ export default function ContactFormModal(
         </div>
     );
 }
+
+export default ContactFormModal;

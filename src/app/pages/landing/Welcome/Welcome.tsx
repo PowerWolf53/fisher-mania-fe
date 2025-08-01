@@ -1,9 +1,9 @@
 'use client'
-import './landing-desktop.css'
+import './Welcome.css'
 import {useState} from "react";
-import ContactFormModal from "@/app/pages/desktop/landing/desktop/contact-form-modal/ContactFormModal";
+import ContactFormModal from "./ContactFormModal";
 
-export default function LandingDesktop() {
+const Welcome = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const onClose = () =>{
@@ -31,3 +31,5 @@ export default function LandingDesktop() {
     );
 
 }
+
+export default Welcome;
