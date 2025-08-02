@@ -30,7 +30,8 @@
 @media (width < 600px) {
     .about-section {
         grid-template-columns: 1fr;
-        height: 150vh;
+        height: auto;
+        min-height: 150vh;
         padding-left: 0;
         padding-right: 0;
         .about-image{
